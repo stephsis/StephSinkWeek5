@@ -13,7 +13,7 @@ import model.PetList;
  * @author stephaniesink - sisink CIS175 - Spring 2022 Feb 8, 2023
  */
 public class PetListHelper {
-	static EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("WebPetList");
+	static EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("WebPetListWithAdopted");
 
 	public void insertPet(PetList li) {
 		EntityManager em = emfactory.createEntityManager();
